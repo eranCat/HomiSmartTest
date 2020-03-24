@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/round"
+    android:divider="?attr/dividerHorizontal"
+    android:dividerPadding="8dp"
+    android:padding="8dp"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/action_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="0"
+        android:fontFamily="sans-serif-medium"
+        tools:text="action"
+        android:textColor="#38923B"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="date ...."
+        android:textSize="18sp" />
+</LinearLayout>
